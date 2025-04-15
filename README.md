@@ -1,12 +1,27 @@
-# React + Vite
+# 🎨 Color Challenge
+## ACS 3330: Assignment Overview (React, Javascript, CSS)
+### This project is a simple React-based color guessing game.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ✅ Features:
+* Displays three random color swatches (100px x 100px).
 
-Currently, two official plugins are available:
+* Shows the hex value of one of the swatches.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* When a swatch is clicked:
 
-## Expanding the ESLint configuration
+  - ✅ If it matches the displayed hex color, shows "Correct!"
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  - ❌ Otherwise, shows "Incorrect!"
+
+* Includes a "Play Again" button to reset the game.
+
+### 🤖 AI Prompts Used:
+"Why isn't my square updating its background colors?"
+
+"Give me a code review?"
+
+
+The AI helped me better understand how to structure my code and explained that to dynamically update the square colors, I needed to use React state and inline styles, not just rely on static CSS.
+
+### 🧠 What I Figured Out on My Own:
+One thing I figured out on my own was how to set up the project using Vite + React. From there, I was able to implement each of the required steps, including designing the layout of the swatches and identifying the key variables needed for the game logic.
